@@ -4,3 +4,4 @@ src/tests/
 .env.test
 .env.development
 jest.config.json
+yarn-error.log
