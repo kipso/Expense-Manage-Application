@@ -1,8 +1,9 @@
 import { firebase, googleAuthProvider } from '../firebase/firebase';
 
-export const login = (uid) => ({
+export const login = (uid,email) => ({
 	type:'LOGIN',
-	uid
+	uid,
+	email
 });
 
 export const startLogin = () => {
